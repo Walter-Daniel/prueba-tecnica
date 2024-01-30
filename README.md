@@ -23,14 +23,11 @@ Este repositorio contiene la prueba técnica para el puesto de Trainee en Pigmal
 
 - [Documentación de JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-## Contribuir
-
-Si encuentras algún problema o tienes sugerencias para mejorar la prueba técnica, por favor crea un issue o envía un pull request. ¡Tu colaboración es bienvenida!
-
 ## Contacto
 
-Para cualquier consulta, no dudes en ponerte en contacto con nosotros.
-
+Para cualquier consulta, no dudes en ponerte en contacto a través de:.
+- Email: walterdcarrizo.19@gmail.com
+- LinkedIn: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/walter-daniel-carrizo/)
 ---
 
 **¡Esperamos que disfrutes de la prueba técnica!**
