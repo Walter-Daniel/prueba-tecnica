@@ -6,7 +6,7 @@
 
 ## Descripción
 
-Este repositorio contiene la prueba técnica para el puesto de Trainee en Pigmalion Software. El examen está diseñado para evaluar tus habilidades en el uso de JavaScript, específicamente en su versión ES6.
+Este repositorio contiene la prueba técnica para el puesto de Trainee en Pigmalion Software.
 
 ## Instrucciones
 
