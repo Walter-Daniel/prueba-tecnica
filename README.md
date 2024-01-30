@@ -28,4 +28,4 @@ Para cualquier consulta, no dudes en ponerte en contacto a través de:.
 - LinkedIn: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/walter-daniel-carrizo/)
 ---
 
-**¡Esperamos que disfrutes de la prueba técnica!**
+**¡Espero que disfrutes de la prueba técnica!**
