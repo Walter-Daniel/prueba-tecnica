@@ -3,8 +3,8 @@ let iteracionesEnAlgoritmo1 = 0;
 let iteracionesEnAlgoritmo2 = 0;
 
 //Se crea un arrayDeNumeros que contiene 50 números aleatorios.
-//En a variable X guardamos el valor que queremos obtener de la suma de dos elementos del array.
-const arrayDeNumeros = Array.from({ length: 50 }, (_, index) => index + 1);
+//En la variable X guardamos el valor que queremos obtener de la suma de dos elementos del array.
+const arregloDeNumeros = Array.from({ length: 50 }, (_, index) => index + 1);
 const x = 98;
 
 
@@ -16,11 +16,11 @@ importante es realizar el desarrollo en el menor tiempo posible.
 
 //ALGORITMO UTILIZANDO BUCLE FOR
 
-function sumaDeElementos(array, x) {
-  for (let i = 0; i < array.length; i++) { //n
-    for (let j = i + 1; j < array.length; j++) { //n²
+function sumaDeElementos(arreglo, x) {
+  for (let i = 0; i < arreglo.length; i++) { //n
+    for (let j = i + 1; j < arreglo.length; j++) { //n²
       iteracionesEnAlgoritmo1++; //n²
-      if (array[i] + array[j] === x) { //n²
+      if (arreglo[i] + arreglo[j] === x) { //n²
         return true; //n²
       }
     }
@@ -30,7 +30,7 @@ function sumaDeElementos(array, x) {
 
 //NOTACIÓN BIG 0(n²) del primer algorítmo.
 
-console.log(sumaDeElementos(arrayDeNumeros, x));
+console.log(sumaDeElementos(arregloDeNumeros, x));
 console.log("Cantidad de iteraciones en el bucle for: " + iteracionesEnAlgoritmo1);
 
 /* 
@@ -38,11 +38,11 @@ console.log("Cantidad de iteraciones en el bucle for: " + iteracionesEnAlgoritmo
 que el tiempo de ejecución si importa y que el tiempo de desarrollo no es importante.
 */
 
-function sumaDeElementos2(array, X) {
+function sumaDeElementos2(arreglo, X) {
     //Se crea un conjunto de valores únicos con Set y el arreglo que se pasa por parametros, y se los guarda en la variable numSet
-    const numSet = new Set(array);
+    const numSet = new Set(arreglo);
     //En el siguiente for of se itera cada elemento del arreglo para luego calcular el complemento
-    for (let num of array) {
+    for (let num of arreglo) {
         const complemento = X - num;
         console.log(`Número en array: ${num}, el complemento resultante es: ${complemento}`)
         iteracionesEnAlgoritmo2++
@@ -57,7 +57,7 @@ function sumaDeElementos2(array, X) {
 }
 //NOTACION BIG O(n) del segundo algorítmo.
 
-console.log(sumaDeElementos2(arrayDeNumeros, x)); 
+console.log(sumaDeElementos2(arregloDeNumeros, x)); 
 console.log("Cantidad de iteraciones en el bucle formula3: " + iteracionesEnAlgoritmo2); 
 
  /*Si bien la función sumaDeElementos2 es más compleja a la hora de formularla, es más eficiente ya que realiza una menor cantidad de iteraciones al buscar el resultado de la suma esperada y no está sujeta a bucles anidados que crecen cuadráticamente con el tamaño del conjunto de datos. Tiene una Notación Asintotica BIG O(n) lo que nos indica que tiene una mayor velocidad de ejecución y ahorro de recursos que la primera función que tiene una BIG O(n²). La función sumaDeElementos compara todos los pares posibles de elementos del arreglo y al tener bucles anidados disminuye su eficiencia con arreglos de mayor tamaño. */
