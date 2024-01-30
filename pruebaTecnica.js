@@ -14,8 +14,6 @@ programa tiene recursos infinitos, que el tiempo de ejecución no importa y que 
 importante es realizar el desarrollo en el menor tiempo posible.
 */
 
-//ALGORITMO UTILIZANDO BUCLE FOR
-
 function sumaDeElementos(arreglo, x) {
   for (let i = 0; i < arreglo.length; i++) { //n
     for (let j = i + 1; j < arreglo.length; j++) { //n²
@@ -58,6 +56,6 @@ function sumaDeElementos2(arreglo, X) {
 //NOTACION BIG O(n) del segundo algorítmo.
 
 console.log(sumaDeElementos2(arregloDeNumeros, x)); 
-console.log("Cantidad de iteraciones en el bucle formula3: " + iteracionesEnAlgoritmo2); 
+console.log("Cantidad de iteraciones en el bucle for of: " + iteracionesEnAlgoritmo2); 
 
  /*Si bien la función sumaDeElementos2 es más compleja a la hora de formularla, es más eficiente ya que realiza una menor cantidad de iteraciones al buscar el resultado de la suma esperada y no está sujeta a bucles anidados que crecen cuadráticamente con el tamaño del conjunto de datos. Tiene una Notación Asintotica BIG O(n) lo que nos indica que tiene una mayor velocidad de ejecución y ahorro de recursos que la primera función que tiene una BIG O(n²). La función sumaDeElementos compara todos los pares posibles de elementos del arreglo y al tener bucles anidados disminuye su eficiencia con arreglos de mayor tamaño. */
