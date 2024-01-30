@@ -12,8 +12,6 @@ Este repositorio contiene la prueba técnica para el puesto de Trainee en Pigmal
 
 1. Clona este repositorio: `git clone https://github.com/tu_usuario/prueba-tecnica-pigmalion.git`
 2. Accede al directorio del proyecto: `cd prueba-tecnica-pigmalion`
-3. Realiza las tareas asignadas en el examen técnico.
-4. ¡Buena suerte!
 
 ## Tecnología Utilizada
 
